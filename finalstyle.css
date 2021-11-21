@@ -1,0 +1,606 @@
+/*overall source collected , learned gathered from: https://www.w3schools.com/w3css/defaulT.asp*/
+
+
+
+
+/*
+for the whole website 
+*/
+html
+{
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+  font-size: 60%;;
+}
+
+/*
+for the header of the about page 
+*/
+.header
+{  
+      height: 5vh;
+    background-color: skyblue;
+    text-align: center;
+    position:relative;
+  
+    
+}
+/*
+for the body of the about page 
+*/
+body
+{
+    
+    font-weight: 400;
+    background-color: black;
+    position: relative;
+    font-size: 1.6rem;
+}
+/*
+for the image of the about page 
+*/
+image
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+/*
+for the link of the all pages
+*/
+a
+{
+    color: skyblue;
+}
+/*
+for the heading of the all pages
+*/
+h1
+{
+    font-size: 3rem;
+font-weight: 600;
+font-size: 100%;
+}
+/*
+for the heading of the all pages
+*/
+h2
+{
+    font-weight: 300;
+}
+/*
+for the navigation footer of the all pages
+*/
+.nav
+{
+padding: 1.6rem,0;
+}
+/*
+for the logo of the all pages
+*/
+
+.logo
+{
+    font-size: 5rem;
+    font-weight: 300;
+}
+/*
+for the navigation menu of the all pages
+*/
+
+.nav_menu
+{
+    display: flex;
+    
+    align-items: left;
+    display:flex;
+    width: 70%;
+    margin-right: .5rem;
+
+}
+/*
+for the navigation list footer of the all pages
+*/
+
+.nav_list
+{
+    
+    width: 80%;
+    
+   
+}
+
+/*
+for the links if visited of the all page
+*/
+.nav_link:link, .nav_link:visited
+{
+    color:greenyellow;
+    padding: 10px;
+}
+
+.body
+{
+    position:relative;
+    height: 100%;
+}
+/*
+for the left side of the about page
+*/
+.left
+{
+    flex: 1 1 40%;
+   align-self: center; 
+   background-color:black;
+  
+}
+/*
+for the right side of the about page
+*/
+/*
+source of the image : https://www.pngfind.com/pngs/m/191-1916808_running-man-integrated-ssr-hd-png-download.png
+*/
+.right
+{
+    flex: 1 1 50%;
+    background-image: url("https://www.albany.edu/~sk796958/PngItem_2085482.png");
+    padding:100px;
+    background-color:transparent;
+    background-position: 50% 40%;
+    background-size: 50%;
+    background-repeat : no-repeat ;
+    
+    
+}
+/*
+for the left heading side of the about page
+*/
+.left h1
+{
+    color:white ;
+    font-size: 7rem;
+    margin-bottom: 1.6rem;
+    background-color:grey;
+
+}
+/*
+for the left heading side of the about page
+*/
+.left_h2
+{
+    color:grey ;
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+     
+}
+.center
+{
+    display: flex;
+    height: 100%;
+
+}
+/*
+for the left paragraph of the about page
+*/
+.left p
+{
+    color:white;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 2.5rem;
+    background-color:black;
+}
+
+
+
+/*
+for the about page section
+*/
+ 
+.section
+{
+    padding : 10rem, 0;
+}
+/*
+for the about page heading section
+*/
+.section_h1
+{
+    font-size: 10rem;
+    color: grey;
+    background-color: black;
+    text-align: center;
+}
+/*
+for the about page center section
+*/
+.section_center
+{
+display: grid;
+grid-template-columns: repeat(2, minmax(auto, 50rem));
+column-gap: 4rem;
+justify-content: space-evenly;
+}
+/*
+for the about page left and right section
+*/
+.section_left, .section_right
+{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 10px grey;
+   border-radius: 3rem;
+   justify-content: space-evenly;
+   padding: 5rem;
+
+}
+/*
+for the about page left image section
+*/
+.section_left img
+{
+    width: 50rem;
+
+}
+/*
+for the about page image at right section
+*/
+.section_right img
+{
+    width: 30rem;
+}
+/*
+for the about page heading in the center section
+*/
+.section_center .content h1
+{
+    font-size: 3rem;
+    line-height: 1;
+    margin: 1rem, 0, 1.6rem 0;
+}
+/*
+for the about buttons section
+*/
+button
+{
+    background: black;
+    color: skyblue;
+    padding: 10rem,10rem;
+}
+/*
+for the about page button with mouse over it in section
+*/
+button:hover
+{
+    background-color: transparent;
+    color:skyblue
+}
+
+
+
+
+
+
+
+/*
+for the contact page 
+*/
+
+.contact
+{
+    
+    display:flex;
+    align-items: center;
+    background: black;
+    
+}
+
+/*
+for the contact page heading
+*/
+.contact_head
+{
+    background-color: transparent;
+    font-size: 10rem;
+    text-align: center;
+    font-weight: 200;
+    color:darkgrey
+
+}
+/*
+for the contact page right
+*/
+.contact_right
+{
+    
+    flex: 1 1 50%;
+    padding:1rem;
+    margin: 1rem auto;
+    color:darkgrey;
+    font-size:3rem;
+
+}
+/*
+for the contact page left with background image
+*/
+/*
+source of the image : https://www.qplusconsult.com/wp-content/uploads/2018/10/contact-us.png
+*/
+.contact_left
+{
+    flex: 1 1 70%;
+    background-image: url("https://www.qplusconsult.com/wp-content/uploads/2018/10/contact-us.png");
+    padding:200px;
+    background-color:transparent;
+    background-position: 40% 40%;
+    background-size: 60%;
+    background-repeat : no-repeat ;
+}
+
+/*
+for the contact page image
+*/
+.contact img
+{
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    width: 60rem;
+    
+
+}
+/*
+for the contact page information div styling
+*/
+.information
+{
+    padding: 1rem;
+}
+/*
+for the radio buttons on the contact page
+*/
+.Rbutton
+{
+    display:none;
+    font-size:5rem;
+    background-color: grey;
+    text-align: left;
+    color:black;
+}
+.Rbutton1
+{
+    display:none;
+    font-size:5rem;
+    background-color: grey;
+    text-align: left;
+    color:black;
+}
+/*
+for the radiobutton heading
+*/
+.Rbutton h1
+{
+    font-size: 10rem;
+    font-weight: 100;
+}
+.Rbutton1 h1
+{
+    font-size: 10rem;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+/*
+for the subscribe page 
+*/
+.subscribe
+{
+    display:flex;
+    align-items: center;
+    background: black;
+}
+/*
+for the subscribe page left with background image 
+*/
+/*
+source of the image : https://www.pngkey.com/png/full/384-3843422_with-the-virtual-pos-platform-merchants-can-create.png
+*/
+.subscribe_left
+{
+    flex: 1 1 30%;
+    background-image: url("https://www.pngkey.com/png/full/384-3843422_with-the-virtual-pos-platform-merchants-can-create.png");
+    padding:200px;
+    background-color:transparent;
+    background-position: 30% 60%;
+    background-size: 80%;
+    background-repeat : no-repeat ;
+}
+/*
+for the subscribe page right with text
+*/
+.subscribe_right
+{
+    flex: 1 1 70%;
+    padding:1rem;
+    margin: 1rem auto;
+    color:white;
+    font-size:4rem;
+}
+/*
+for the subscribe page heading
+*/
+.subscribe h1
+{
+    font-size: 5rem;
+    font-weight: 100;
+    color: grey;
+}
+/*
+for the subscribe page paragraph
+*/
+.subscribe p
+{
+    color: darkgrey;
+    font-size: small;
+
+}
+/*
+for the subscribe page image on clicking button
+*/
+.thankyou img
+{
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    width:50rem;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+/*
+for the product page.
+*/
+.product
+{
+   
+    background-color:white;
+
+}
+/*
+for the product page header
+*/
+.product_header
+{
+height:15rem;
+color:darkgrey;
+position: relative;
+object-fit: contain;
+}
+/*
+for the product footer
+*/
+.product_footer
+{
+    padding: .5rem 0;
+    color: darkgray;
+}
+/*
+for the product page heading for the product name.
+*/
+.product_footer h2
+{
+    margin-bottom: 1rem;
+    color: darkgray;
+}
+/*
+for the product page heading
+*/
+.product_footer h3
+{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight:700;
+    color: darkgray;
+
+}
+/*
+for the product page images that 
+*/
+.product_header img
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:40rem;
+    border-radius: 20px;
+}
+
+
+/*
+for the product page payment.
+*/
+.payment
+{
+    color:darkgray;
+
+}
+/*
+for the product page payment heading.
+*/
+.payment h1
+{
+     font-size: 5rem;
+     font-weight: 200;
+}
+/*
+for the product page payment para.
+*/
+.payment p
+{
+    font-size: 2rem;
+    font-weight: 200;
+    color:darkgray
+}
+
+
+
+
+
+/*
+for the footer of all the pages.
+*/
+    .footer
+    {
+        width:auto;
+        background-color: #212121;
+        text-align: center;
+        height: 20%;
+    }
+/*
+for the mail footer of all the pages.
+*/
+    .mail
+    {
+        color: darkred;
+    }
+    /*
+for the footer left with the nav links of all the pages.
+*/
+    .footer_left
+    {
+        font-size: 150%;
+        width:max-content;
+        background-color: #212121;
+        text-align: center;
+
+    }
+/*
+for the footer right with a gif of all the pages.
+*/
+/*
+source of the gif : https://steamuserimages-a.akamaihd.net/ugc/937204069035431399/90B4961421D4D8E0536D45DD81449A72AC3092D3/?imw=1024&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false
+*/
+    .footer_right
+    {
+        background-image: url("https://steamuserimages-a.akamaihd.net/ugc/937204069035431399/90B4961421D4D8E0536D45DD81449A72AC3092D3/?imw=1024&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+        flex: 1 1 60%;
+    padding:100px;
+    background-color:transparent;
+    background-repeat : no-repeat ;
+    background-position: 90% 50%;
+    background-size: 40%;
+    }
+
